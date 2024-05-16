@@ -14,33 +14,42 @@ body {
     font-weight: 400;
 }
 
+.page-content {
+    width: 70%;
+    margin: auto;
+}
+
 /* Section Settings */
 
-.section {
-}
-
-.wrapper {
-    min-height: 100vh;
-
-}
 
 .Site-content {
 
-}
-
-a {
     color: black;
     text-decoration: none;
 }
 
+/* Centered text */
+
+.image-text {
+    width: 100%;
+}
+.image-text > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}
+
+/* Centered text */
+.image-text-centered {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Header */
-.page-header, .page-footer {
 
-}
-
-.header-section {
-
-}
 
 /* Logo */
 
@@ -68,6 +77,9 @@ a {
 #site-navbar {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    justify-content: center;
+    z-index: 50;
 }
   
 /* Navbar links */
@@ -78,12 +90,11 @@ a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    z-index: inherit;
 }
   
 /* Page content */
-.page-content {
-    padding: 16px;
-}
+
   
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -91,11 +102,11 @@ a {
     top: 0;
     width: 100%;
 }
+
+
   
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .page-content {
-    padding-top: 60px;
-}
+
 
 /* Content */
 
