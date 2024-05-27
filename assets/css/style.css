@@ -25,7 +25,7 @@ body {
 /* Section Settings */
 
 .section {
-    width: 70%;
+    /* width: 70%; */
     display: flex;
 }
 
@@ -33,6 +33,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    height: 90vw;
 }
 
 /* Centered text */
@@ -41,11 +42,13 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    padding-top: 10%;
+    border: solid 1px green;
 }
 
 .image-text > img {
-    width: 100%;
-    height: auto; 
+    width: 85%;
+    height: auto;
 }
 
 /* Centered text 
