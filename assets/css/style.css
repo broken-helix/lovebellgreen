@@ -26,14 +26,12 @@ body {
 
 .section {
     /* width: 70%; */
-    display: flex;
 }
 
 #section-intro {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 90vw;
 }
 
 /* Centered text */
@@ -166,4 +164,19 @@ body {
 .fa-brands, .fab {
     margin: 10px;
     font-size: 20px;
+}
+
+/* About Section */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-box {
+    width: 50%;
+}
+
+#section-bell-green {
+    padding: 60px 0 0 0;
 }
