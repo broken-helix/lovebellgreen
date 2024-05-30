@@ -168,15 +168,19 @@ body {
 
 /* About Section */
 
-.about-container {
+.home-container {
     display: flex;
     flex-direction: row;
 }
 
-.about-box {
+.home-box {
     width: 50%;
 }
 
-#section-bell-green {
+#section-bell-green, #section-litter, #section-traffic {
     padding: 60px 0 0 0;
+}
+
+.section-header {
+    text-align: center;
 }
